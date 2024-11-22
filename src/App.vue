@@ -1,18 +1,26 @@
 <template>
-  <div id="app">
-   <messagesMword/> 
-  </div>
+  <v-app>
+  <v-app-bar>
+    </v-app-bar>
+
+    <v-main>
+      <messagesMWord/>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import MessagesMword from './components/messagesMword.vue'
-
+import messagesMWord from './components/messagesMword';
 
 export default {
   name: 'App',
-  components: {
-    MessagesMword
-  }
-}
-</script>
 
+  components: {
+    messagesMWord,
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>
