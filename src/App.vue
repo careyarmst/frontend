@@ -1,27 +1,18 @@
 <template>
   <div id="app">
-    
+   <messagesMword/> 
   </div>
 </template>
 
 <script>
-import Messages from './components/Messages.vue'
+import MessagesMword from './components/messagesMword.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Messages
+    MessagesMword
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
