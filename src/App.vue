@@ -1,12 +1,14 @@
 <template>
-  <v-app>
-  <v-app-bar>
-    </v-app-bar>
+ <v-app>
+  <v-toolbar app>
+  </v-toolbar>
 
-    <v-main>
+    
+  <v-content>
       <messagesMWord/>
-    </v-main>
-  </v-app>
+  </v-content>
+    
+ </v-app>
 </template>
 
 <script>
